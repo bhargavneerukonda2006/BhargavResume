@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ATS Friendly Resume</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:40px;
+    background:#f4f4f4;
+}
+
+.resume{
+    max-width:800px;
+    margin:auto;
+    background:#fff;
+    padding:30px;
+    border:1px solid #ccc;
+}
+
+h1{
+    text-align:center;
+    color:#000;
+    margin-bottom:5px;
+}
+
+.contact{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:15px;
+}
+
+h2{
+    border-bottom:2px solid #000;
+    padding-bottom:5px;
+    margin-top:25px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+button{
+    display:block;
+    margin:20px auto;
+    padding:10px 20px;
+    background:#000;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f7f7f7;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#msg{
+    text-align:center;
+    color:green;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+<h1>NEERUKONDA SURYA MANI BHARGAV</h1>
+
+<div class="contact">
+Email: bhargavneerukonda@gmail.com |
+Phone: +91 8919952089 |
+Location: Andhra Pradesh, India <br>
+<a href="https://www.linkedin.com/in/bhargav-neerukonda-2006v/">LinkedIn |</a>
+<a href="https://github.com/bhargavneerukonda2006/Bhargav2">GitHub  |</a>
+</div>
+
+<h2>Professional Summary</h2>
+<p>
+Motivated B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning) student with strong knowledge of Python, SQL, Power BI, HTML, CSS, JavaScript, Java, and Machine Learning. Passionate about Data Analytics, AI solutions, and software development. Seeking internship opportunities to apply technical skills and contribute to real-world projects.
+</p>
+
+<div class="section">
+    <h2>Education</h2>
+
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>Score</th>
+        </tr>
+
+        <tr>
+            <td>B.Tech (CSE - AI & ML)</td>
+            <td>Sasi Institute of Technology and Engineering</td>
+            <td>8.2 CGPA</td>
+        </tr>
+
+        <tr>
+            <td>Intermediate (MPC)</td>
+            <td>Sri Abhyasa institutions</td>
+            <td>95.7</td>
+        </tr>
+
+        <tr>
+            <td>SSC</td>
+            <td>Sri Abhyasa institutions</td>
+            <td>91</td>
+        </tr>
+    </table>
+</div>
+
+<h2>Technical Skills</h2>
+<ul>
+<li>Programming Languages: Python, Java, JavaScript, C</li>
+<li>Web Technologies: HTML, CSS, JavaScript</li>
+<li>Database: SQL, MySQL</li>
+<li>Data Analytics: Power BI, Excel</li>
+<li>Tools: Git, GitHub, VS Code</li>
+<li>Concepts: Data Structures, DBMS, OOP, Machine Learning Basics</li>
+</ul>
+
+<h2>Achievements</h2>
+<ul>
+<li>Completed multiple AI, Data Analytics, and Power BI projects.</li>
+<li>Actively learning Machine Learning and Data Engineering.</li>
+</ul>
+
+<h2>Soft Skills</h2>
+<ul>
+<li>Problem Solving</li>
+<li>Communication</li>
+<li>Teamwork</li>
+<li>Leadership</li>
+<li>Time Management</li>
+</ul>
+
+<h2>Languages</h2>
+<ul>
+<li>English</li>
+<li>Telugu</li>
+</ul>
+
+<button onclick="downloadResume()">Download Resume</button>
+
+<p id="msg"></p>
+
+</div>
+
+<script>
+function downloadResume(){
+    document.getElementById("msg").innerHTML =
+    "Your ATS-friendly resume is ready for printing. Press Ctrl + P to save it as a PDF.";
+}
+</script>
+
+</body>
+</html>
